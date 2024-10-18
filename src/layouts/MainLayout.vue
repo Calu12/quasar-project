@@ -12,10 +12,10 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          ConnectWork App
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>ConnectWork 0.0.1</div>
       </q-toolbar>
     </q-header>
 
@@ -32,9 +32,9 @@
         </q-item-label>
 
         <EssentialLink
-          v-for="link in linksList"
-          :key="link.title"
-          v-bind="link"
+          key="0"
+          title="Lien Github"
+          v-bind:href="'https://github.com/Calu12/quasar-project'"
         />
       </q-list>
     </q-drawer>
